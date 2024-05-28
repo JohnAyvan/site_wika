@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/styles/main.css">
+	<title>CHESS</title>
+</head>
+<body>
+<!-- <span class="numNotation">1</span>  -->
+
+<div class="wrapper">
+	<div class="board">
+		<div id="a8" class="cell light">
+			<span class="numNotation vertical left">8</span> 		
+			
+		</div>
+
+
+		<div id="b8" class="cell dark">
+			
+			
+		</div>
+		<div id="c8" class="cell light">
+			
+			
+		</div>
+
+		<div id="d8" class="cell dark">
+			
+			
+		</div>
+
+		<div id="e8" class="cell light">
+			
+			
+		</div>
+
+		<div id="f8" class="cell dark">
+			
+			
+		</div>
+
+
+		<div id="g8" class="cell light">
+			
+			
+		</div>
+
+		<div id="h8" class="cell dark">
+			
+			
+		</div>
+
+		<div id="a7" class="cell dark">
+			<span class="numNotation vertical left">7</span>
+			
+			
+		</div>
+
+
+		<div id="b7" class="cell light">
+			
+			
+		</div>
+		<div id="c7" class="cell dark">
+			
+			
+		</div>
+		<div id="d7" class="cell light">
+			
+			
+		</div>
+		<div id="e7" class="cell dark">
+			
+			
+		</div>
+		<div id="f7" class="cell light">
+			
+			
+		</div>
+		<div id="g7" class="cell dark">
+			
+			
+		</div>
+		<div id="h7" class="cell light">
+			
+			
+		</div>
+
+		<div id="a6" class="cell light">
+			<span class="numNotation vertical left">6</span>
+		</div>
+		<div id="b6" class="cell dark">
+		</div>
+		<div id="c6" class="cell light">
+		</div>
+		<div id="d6" class="cell dark">
+		</div>
+		<div id="e6" class="cell light">
+		</div>
+		<div id="f6" class="cell dark">
+		</div>
+		<div id="g6" class="cell light">
+		</div>
+		<div id="h6" class="cell dark">
+		</div>
+
+		<div id="a5" class="cell dark">
+			<span class="numNotation vertical left">5</span>
+		</div>
+		<div id="b5" class="cell light">
+		</div>
+		<div id="c5" class="cell dark">
+		</div>
+		<div id="d5" class="cell light">
+		</div>
+		<div id="e5" class="cell dark">
+		</div>
+		<div id="f5" class="cell light">
+		</div>
+		<div id="g5" class="cell dark">
+		</div>
+		<div id="h5" class="cell light">
+		</div>
+
+		<div id="a4" class="cell light">
+			<span class="numNotation vertical left">4</span>
+		</div>
+		<div id="b4" class="cell dark">
+		</div>
+		<div id="c4" class="cell light">
+		</div>
+		<div id="d4" class="cell dark">
+		</div>
+		<div id="e4" class="cell light">
+		</div>
+		<div id="f4" class="cell dark">
+		</div>
+		<div id="g4" class="cell light">
+		</div>
+		<div id="h4" class="cell dark">
+		</div>
+
+		<div id="a3" class="cell dark">
+			<span class="numNotation vertical left">3</span>
+		</div>
+		<div id="b3" class="cell light">
+		</div>
+		<div id="c3" class="cell dark">
+		</div>
+		<div id="d3" class="cell light">
+		</div>
+		<div id="e3" class="cell dark">
+		</div>
+		<div id="f3" class="cell light">
+		</div>
+		<div id="g3" class="cell dark">
+		</div>
+		<div id="h3" class="cell light">
+		</div>
+
+
+
+		<div id="a2" class="cell light">
+			<span class="numNotation vertical left">2</span>
+			
+			
+		</div>
+		<div id="b2" class="cell dark">
+			
+			
+		</div>
+		<div id="c2" class="cell light">
+			
+			
+		</div>
+		<div id="d2" class="cell dark">
+			
+			
+		</div>
+		<div id="e2" class="cell light">
+			
+			
+		</div>
+		<div id="f2" class="cell dark">
+			
+			
+		</div>
+		<div id="g2" class="cell light">
+			
+			
+		</div>
+		<div id="h2" class="cell dark">
+			
+			
+		</div>
+
+		<div id="a1" class="cell dark">
+			<span class="numNotation vertical left">1</span>
+			<span class="numNotation horizontal bottom">a</span>
+			
+				</div>
+		<div id="b1" class="cell light">
+			<span class="numNotation horizontal bottom">b</span>
+			
+			
+		</div>
+		<div id="c1" class="cell dark">
+			<span class="numNotation horizontal bottom">c</span>
+			
+			
+		</div>
+		<div id="d1" class="cell light">
+			<span class="numNotation horizontal bottom">d</span>
+			
+			
+		</div>
+		<div id="e1" class="cell dark">
+			<span class="numNotation horizontal bottom">e</span>
+			
+			
+		</div>
+		<div id="f1" class="cell light">
+			<span class="numNotation horizontal bottom">f</span>
+			
+			
+		</div>
+		<div id="g1" class="cell dark">
+			<span class="numNotation horizontal bottom">g</span>
+			
+			
+		</div>
+		<div id="h1" class=" cell light">
+			<span class="numNotation horizontal bottom">h</span>
+			
+			
+
+		</div>
+</div>
+
+
+
+<div class="menu">
+	
+	<div class="stat">
+		<h2> WINS!</h2>
+		<div id="player1" class="player">
+			<img src="pics/wPawn.png" alt="">
+			<span>PLAYER 1:</span>
+		</div>
+		<div id="player2" class="player">
+			<img src="pics/bPawn.png" alt="">
+
+			<span>PLAYER 2:</span>
+		</div>
+
+
+	</div>
+
+
+	<div class="announcement">
+		
+	</div>
+
+	<div class="buttonsMenu">
+		<button class="btn" id="changeSide">CHANGE SIDE</button>
+		<button class="btn" id="randomChange">RANDOM CHANGE</button>
+		<button class="btn" id="restart">RESTART</button>
+	</div>
+
+
+</div>
+
+	</div>
+
+	<script src="assets/scripts/jquery-3.6.0.js"></script>
+	<script src="assets/scripts/main.js"></script>
+	
+</body>
+</html>
